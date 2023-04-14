@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.p-dropdown{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.p-inputtext{
+  width: 120px !important;
+}
+
+.p-dropdown .p-dropdown-trigger{
+  width: 1rem !important;
+}
+
+.p-card-body{
+  background-color: #032055 !important;
+}
+
+.p-card-title{
+  color: white;
+}
+
+.p-card-content{
+  padding: 0 !important;
+}
