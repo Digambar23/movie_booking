@@ -1,7 +1,7 @@
 import styles from "./SeatLayout.module.css";
 import { useState } from "react";
 import { useDispatch, useSelector} from "react-redux";
-import { bookingSelector, remove, select } from "../../../store/reducers/BookingReducer";
+import { bookingSelector, remove, select } from "../../../store/reducers/BookingReducers";
 
 export function SeatLayout(){
 

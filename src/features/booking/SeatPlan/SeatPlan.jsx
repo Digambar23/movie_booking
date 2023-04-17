@@ -4,15 +4,12 @@ import {Link} from "react-router-dom";
 
 import { BookingSummary } from "../BookingSummary/BookingSummary";
 import { SeatLayout } from "../SeatLayout/SeatLayout";
-import { NavBar } from "../../shared/NavBar/NavBar";
+import { Navbar } from "../../shared/NavBar/NavBar";
 
 export function SeatPlan(){
-
-   
-
     return(
         <div className={styles.container}>
-            <NavBar/>
+            <Navbar/>
             <div className={styles.banner}>
                 <h1>Venus</h1>
                 <p>City Walk</p>

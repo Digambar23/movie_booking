@@ -1,6 +1,6 @@
 
 import { configureStore } from "@reduxjs/toolkit";
-import { bookingReducer } from "./reducers/BookingReducer";
+import { bookingReducer } from "./reducers/BookingReducers";
 
 // to create a store.
 

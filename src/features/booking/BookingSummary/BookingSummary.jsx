@@ -1,6 +1,6 @@
+import { bookingSelector, priceSelector } from "../../../store/reducers/BookingReducers";
 import styles from"./BookingSummary.module.css";
 import {useSelector} from "react-redux";
-import {bookingSelector,priceSelector} from "../../../store/reducers/BookingReducer";
 export function BookingSummary(){
     const selectedSeats=useSelector(bookingSelector);
     const seatPrice= useSelector(priceSelector);

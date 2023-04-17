@@ -1,10 +1,10 @@
 import { useEffect,useState } from "react";
-import { Navbar } from "../../../shared/navbar/navbar";
 // import { Banner } from "../Banner/Banner.Module";
 // import { MovieCard } from "../MovieCard/MovieCard";
-import { SearchPanel } from "../SearchPanel/SearchPanel";
+import { SearchPanel } from "../SearchPanel";
 import {Link} from "react-router-dom";
 import styles from "./Home.module.css";
+import { Navbar } from "../../shared/NavBar/NavBar";
 
 
 export function Home(){
