@@ -5,13 +5,13 @@ import { SearchPanel } from "../SearchPanel";
 import {Link} from "react-router-dom";
 import styles from "./Home.module.css";
 import { Navbar } from "../../shared/NavBar/NavBar";
+import { getMovies } from "../services";
 
 
 export function Home(){
     const [movies,setMovies]=useState([]);
     useEffect(()=>{
-        fetch("http://localhost:4000/api/movie")
-        .then((res)=>res.json())
+        getMovies()
         .then(movies=>{
             setMovies(movies);
         })
